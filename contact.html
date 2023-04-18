@@ -29,9 +29,91 @@
 
     <div class="h1">
 
-        <h1>Contact</h1>
+        <h1>Nous contacter</h1>
 
     </div>
+
+    <main>
+
+        <h2>Formulaire</h2>
+
+        <!-- Nom -->
+
+        <form action="">
+
+            <div>
+                <label for="nom">Renseignez votre nom</label>
+                <label class="prenom" for="prenom">Renseignez votre prénom</label>
+                <br>
+                <input type="text" id="nom" pattern="[a-zA-Z]{1,15}" name="nom" required>
+                <input type=" text" id="prenom" nom="prenom" pattern="[a-zA-Z]{1,15}">
+            </div>
+            <br>
+            <br>
+
+            <!-- email -->
+
+            <label for="mail">Renseignez votre mail</label>
+            <label class="tel" for="tel">Renseignez votre numéro de tel</label>
+            <br>
+            <input type="email" name="mail" id="mail">
+            <input type="tel" name="tel" id="tel">
+            <br>
+            <br>
+
+            <!-- sujet -->
+
+            <legend>Quel est le sujet ?</legend>
+            <br>
+            <input type="radio" id="sujet" name="sujet">
+            <label class="labelSujet" for="sujet">Prendre rendez-vous</label>
+            <input type="radio" id="sujet2" name="sujet">
+            <label class="labelSujet" for="sujet2">A propos d'un film</label>
+            <br>
+            <br>
+            <input type="radio" id="sujet3" name="sujet">
+            <label class="labelSujet" for="sujet3">Candidature spontanée</label>
+            <input type="radio" id="sujet4" name="sujet">
+            <label class="labelSujet" for="sujet4">Demander des renseignements</label>
+            <br>
+            <br>
+            <br>
+
+            <!-- Textarea -->
+
+            <textarea name="textarea" id="textarea" cols="40" rows="15" placeholder="Ecrivez ici"></textarea>
+            <br>
+            <input class="submit" type="submit">
+
+        </form>
+
+    </main>
+
+    <footer>
+
+        <div class="flexfooter">
+
+            <div class="horaire">
+                <h3>Horaires:</h3>
+                <p>Du lundi au vendredi: de 9h à20h</p>
+                <p>Le samedi: 9h-12h</p>
+
+            </div>
+
+            <div class="reseau">
+
+                <h3>Réseaux sociaux:</h3>
+
+                <a href="index.html"><img src="logo/instagram.png" alt="linkedin">Notre linkedin</a>
+                <br>
+                <a href="index.html"><img src="logo/facebook.png" alt="facebook">Notre facebook</a>
+
+
+            </div>
+
+        </div>
+
+    </footer>
 
 </body>
 

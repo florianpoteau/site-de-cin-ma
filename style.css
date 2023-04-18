@@ -26,6 +26,7 @@ body {
     .nav-list li {
         list-style: none;
         padding: 2% 15%;
+        
     }
       
     .nav-list li a {
@@ -35,7 +36,7 @@ body {
       
     .nav-list li:hover {
         background-color: grey;
-        transform: scaleY(1.5);
+        /* transform: scaleY(1.5); */
     }
 
     /* Body */
@@ -70,6 +71,10 @@ body {
         gap: 5%;
     }
 
+    .film{
+        width: 12%;
+    }
+
     .film:hover{
         transform: scale(115%);
     }
@@ -82,6 +87,7 @@ body {
 
     .acteur1{
         border-radius: 50%;
+        width: 100%;
     }
 
     .acteur1:hover{
@@ -90,6 +96,7 @@ body {
 
     .acteur2{
         border-radius: 50%;
+        width: 100%;
     }
 
     .acteur2:hover{
@@ -98,6 +105,7 @@ body {
 
     .acteur3{
         border-radius: 50%;
+        width: 100%;
     }
 
     .acteur3:hover{
@@ -106,6 +114,7 @@ body {
 
     .acteur4{
         border-radius: 50%;
+        width: 100%;
     }
 
     .acteur4:hover{
@@ -114,6 +123,7 @@ body {
 
     .acteur5{
         border-radius: 50%;
+        width: 100%;
     }
 
     .acteur5:hover{

@@ -48,6 +48,95 @@ body {
     margin-right: 8%;
 }
 
+main{
+    border: 1px solid;
+    border-radius: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 7%;
+    background-color:#5858582b;
+}
 
+h2{
+    text-align: center;
+    margin-bottom: 3%;
+}
 
+label{
+    margin-left: 10%;
+}
+
+.prenom, .tel{
+    margin-left: 14%;
+}
+
+input{
+    margin-left: 10%;
+}
+
+legend{
+    margin-left: 10%;
+}
+
+.labelSujet{
+    margin-left: 0;
+}
+
+textarea{
+   margin-left: 19%;
+   resize: none;
+   margin-bottom: 3%;
+}
+
+.submit{
+    margin-left: 36%;
+    margin-bottom: 2%;
+    width: 28%;
+    height: 3em;
+}
+
+#sujet2{
+    margin-left: 12%;
+}
+
+#nom:valid{
+    box-shadow: 0 0 2px 1px 
+green;
+}
+
+/* Footer */
+
+.flexfooter{
+    margin-top: 5%;
+    display: flex;
+}
+
+.horaire{
+    flex: 1;
+    background-color: black;
+    color: white;
+}
+
+.reseau{
+    flex: 1;
+    background-color: black;
+    color: white;
+}
+
+h3{
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.horaire p{
+    font-size: 20px;
+    margin-left: 8%;
+}
+
+.reseau a{
+    margin-left: 12%;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
 
