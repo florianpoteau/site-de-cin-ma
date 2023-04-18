@@ -3,6 +3,7 @@
 
 body {
       margin: 0; 
+      background-color:#80808040 ;
     }
 
     /* Header */
@@ -42,7 +43,6 @@ body {
     h1{
         margin-top: 5%;
         text-align: center;
-        color: red;
     }
 
     .h2{
@@ -53,13 +53,14 @@ body {
         margin-top: 5%;
         font-size: 30px;
         text-align: center;
-        color: red;
+    
     }
 
     .h1{
-        padding-top: 1%;
-        padding-bottom: 3%;
-        background-color: beige;
+        background-color: #ffa500a3;
+        color: black;
+        margin-left: 8%;
+        margin-right: 8%;
         margin-bottom: 7%;
     }
 
@@ -128,12 +129,14 @@ body {
 
     .horaire{
         flex: 1;
-        background-color: #e83f3fc7;
+        background-color: black;
+        color: white;
     }
 
     .reseau{
         flex: 1;
-        background-color: #008b8bd4;
+        background-color: black;
+        color: white;
     }
 
     h3{
@@ -149,7 +152,7 @@ body {
     .reseau a{
         margin-left: 12%;
         text-decoration: none;
-        color: black;
+        color: white;
         font-size: 18px;
     }
 

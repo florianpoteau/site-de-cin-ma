@@ -2,6 +2,7 @@
 
 body {
     margin: 0; 
+    background-color:#80808040 ;
   }
     
     /* Header */
@@ -41,13 +42,10 @@ body {
     h1{
         margin-top: 5%;
         text-align: center;
-        color: red;
-    }
-
-    .h1{
-        padding-top: 1%;
-        padding-bottom: 3%;
-        background-color: beige;
+        color: black;
+        background-color: #ffa500a3;
+        margin-left: 8%;
+        margin-right: 8%;
     }
 
     .flex1{
@@ -80,6 +78,30 @@ body {
         padding-left: 15%;
     }
 
+    .titre1, .titre2, .titre3, .titre4,.titre5,.titre6,.titre7,.titre8,.titre9{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    main{
+        padding-top: 1%;
+        padding-bottom: 3%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        background-color: #02110f38;
+        border-radius: 5%;
+        box-shadow: 3px 4px 12px;
+    }
+
+    button{
+        padding: 3%;
+       margin-left: 37%;
+    }
+
+    button:hover{
+        background-color: #d1ccccd4;
+    }
 
     
        /* Footer */
@@ -91,12 +113,14 @@ body {
 
     .horaire{
         flex: 1;
-        background-color: #e83f3fc7;
+        background-color: black;
+        color: white;
     }
 
     .reseau{
         flex: 1;
-        background-color: #008b8bd4;
+        background-color: black;
+        color: white;
     }
 
     h3{
@@ -112,6 +136,6 @@ body {
     .reseau a{
         margin-left: 12%;
         text-decoration: none;
-        color: black;
+        color: white;
         font-size: 18px;
     }

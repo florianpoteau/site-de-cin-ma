@@ -2,6 +2,7 @@
 
     body {
         margin: 0; 
+        background-color:#80808040 ;
       }
         
         /* Header */
@@ -38,16 +39,85 @@
 
         /* Body */
 
-        /* Body */
-
     h1{
         margin-top: 5%;
         text-align: center;
-        color: red;
+        color: black;
+        background-color: #ffa500a3;
+        margin-left: 8%;
+        margin-right: 8%;
     }
 
-    .h1{
-        padding-top: 1%;
-        padding-bottom: 3%;
-        background-color: beige;
+    .flexActeur{
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-around;
+    }
+
+    .acteur1{
+        border-radius: 50%;
+        margin-left: 28%;
+    }
+
+    .acteur1:hover{
+        opacity: 0.75;
+    }
+
+    .acteur2{
+        border-radius: 50%;
+        margin-left: 31%;
+    }
+
+    .acteur2:hover{
+        opacity: 0.75;
+    }
+
+    .acteur3{
+        border-radius: 50%;
+        margin-left: 23%;
+    }
+
+    .acteur3:hover{
+        opacity: 0.75;
+    }
+
+    .p{
+        text-align: center;
+        width: 80%;
+    }
+
+    /* Footer */
+
+    .flexfooter{
+        margin-top: 5%;
+        display: flex;
+    }
+
+    .horaire{
+        flex: 1;
+        background-color: black;
+        color: white;
+    }
+
+    .reseau{
+        flex: 1;
+        background-color: black;
+        color: white;
+    }
+
+    h3{
+        margin-left: 10%;
+        font-size: 20px;
+    }
+
+    .horaire p{
+        font-size: 20px;
+        margin-left: 8%;
+    }
+
+    .reseau a{
+        margin-left: 12%;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
     }
