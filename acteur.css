@@ -1,0 +1,53 @@
+    /* Body */
+
+    body {
+        margin: 0; 
+      }
+        
+        /* Header */
+          
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: 0px;
+            cursor: pointer;
+            padding-right: 24%;
+            background-color: #43176d;
+        }
+          
+        .nav-list {
+            width: 50%;
+            display: flex;
+        }
+          
+        .nav-list li {
+            list-style: none;
+            padding: 2% 15%;
+        }
+          
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+          
+        .nav-list li:hover {
+            background-color: grey;
+            transform: scaleY(1.5);
+        }
+
+        /* Body */
+
+        /* Body */
+
+    h1{
+        margin-top: 5%;
+        text-align: center;
+        color: red;
+    }
+
+    .h1{
+        padding-top: 1%;
+        padding-bottom: 3%;
+        background-color: beige;
+    }
