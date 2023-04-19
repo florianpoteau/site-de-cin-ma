@@ -42,9 +42,12 @@
         margin-top: 5%;
         text-align: center;
         color: black;
-        background-color: #ffa500a3;
+        background-color: white;
+        padding-top: 2%;
+        padding-bottom: 2%;
         margin-left: 8%;
         margin-right: 8%;
+        box-shadow: 6px 5px 15px;
     }
 
     .flexActeur{

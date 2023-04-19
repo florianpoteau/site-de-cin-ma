@@ -1,7 +1,6 @@
 
 body {
     margin: 0; 
-    background-color:#80808040 ;
   }
 
    /* Header */
@@ -76,14 +75,14 @@ h3{
 
 
 main{
-    background: rgba(245, 245, 245, 0.925);
+    background-color: black;
     width: 80%;
     margin: 10px auto;
     margin-top: 7%;
     min-height: 800px;
     border-radius: 15px;
     box-shadow: 0 2px 12px 5px rgba(0, 0, 0, 0.260);
-    background-color: #006aff47
+    color: white;
 }
 
 #background1{
@@ -163,7 +162,8 @@ opacity: 0.85;
     text-align: center;
     margin-top: 8%;
     font-size: 2.5em;
-    background-color: #fbb52d;
+    background-color: white;
+    color: black;
     width: 75%;
     margin-left: 13%;
 }
@@ -220,81 +220,6 @@ opacity: 0.85;
 
 @media screen and (max-width: 480px){
 
-
-    /*header*/
-
-
-    header.sticky {
-        width: 100%;
-        background: white;
-    }
-
-    
-    header #head-wrap {
-    
-        display: flex;
-        flex-direction: column;
-    }
-
-    
-   
-    .p-bienvenue {
-    
-        font-family: 'Oswald', sans-serif;
-        color: #31455d;
-        font-size: 25px;
-        text-transform: uppercase;
-        font-weight: bold;
-    
-    }
-    
-    .logo {
-        order: 1;
-        flex: 1;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .home-img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-    }
-    
-    .bienvenue {
-        display: none;
-    
-    }
-
-
-
-
-    nav
-    {
-        height: 60px;
-        
-    }
- 
-    nav .main_pages 
-    {
-        display: none;
-        flex-direction: column;
-        background: #31455d;
-        height: 220px;  
-        
-    }
- 
-    nav .main_pages a {
-        width: 70%;
-        background: #5A5766;
-        border-bottom: 1px dotted;
-        color: white;
-        
-    }
-
-    nav .main_pages a:hover {
-        background: #48435C;
-    }
 
   
     
@@ -370,6 +295,10 @@ opacity: 0.85;
     width: 100%;
 }
 
+.retour{
+    margin-bottom: 3%;
+}
+
 /*Footer*/
 
 .footeradresse{
@@ -391,6 +320,14 @@ opacity: 0.85;
 
 @media screen and (max-width: 1200px){
 
+    .nav-list li {
+        list-style: none;
+        padding: 2% 14%;
+    }
+
+    .navbar {
+        padding-right: 45%;
+    }
 
     #roller{
         margin-bottom: 10%;
@@ -428,6 +365,10 @@ opacity: 0.85;
 .texte{
     width: 97%;
     padding-left: 3%;
+}
+
+.retour{
+    margin-bottom: 3%;
 }
 
 }

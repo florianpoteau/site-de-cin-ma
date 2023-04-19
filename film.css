@@ -2,7 +2,7 @@
 
 body {
     margin: 0; 
-    background-color:#80808040 ;
+
   }
     
     /* Header */
@@ -30,6 +30,7 @@ body {
     .nav-list li a {
         text-decoration: none;
         color: white;
+        font-size: 20px;
     }
       
     .nav-list li:hover {
@@ -39,12 +40,16 @@ body {
     /* Body */
 
     h1{
+        text-transform: uppercase;
         margin-top: 5%;
         text-align: center;
         color: black;
-        background-color: #ffa500a3;
-        margin-left: 8%;
-        margin-right: 8%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+       background-color: white;
+        margin-left: 15%;
+        margin-right: 15%;
+        box-shadow: 6px 5px 15px;
     }
 
     .flex1{
@@ -93,7 +98,8 @@ body {
         background-color: #02110f38;
         border-radius: 5%;
         box-shadow: 3px 4px 12px;
-        background-color: #006aff47;
+        background-color: black;
+        color: white;
     }
 
     button{
