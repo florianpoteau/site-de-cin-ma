@@ -53,6 +53,13 @@ body {
         box-shadow: 6px 5px 15px;
         margin-left: 15%;
         margin-right: 15%;
+        margin-bottom: 5%;
+    }
+
+    .titr{
+        color: #bc1515b0;
+        position: absolute;
+        left: 2em;
     }
 
     .h2{
@@ -220,7 +227,13 @@ body {
         padding: 2% 7%;
     }
 
-
+    .titr{
+        color: #bc1515b0;
+        position: absolute;
+        left: 0;
+        font-size: 15px;
+        left: 0;
+    }
 
     .flexActeur{
         flex-direction: column;

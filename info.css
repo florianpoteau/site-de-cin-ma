@@ -28,6 +28,7 @@ body {
 .nav-list li a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
   
 .nav-list li:hover {
@@ -166,6 +167,14 @@ opacity: 0.85;
     color: black;
     width: 75%;
     margin-left: 13%;
+}
+
+
+
+.titr{
+    color: #bc1515b0;
+    position: absolute;
+    left: 2em;
 }
 
 .h2{
@@ -315,6 +324,12 @@ opacity: 0.85;
     width: 30%;
     background-color: #405670;
   }
+
+  .titr{
+    top: 10px;
+    left: 0;
+    font-size: 15px;
+}
 
 }
 

@@ -23,21 +23,7 @@ const texte8 = document.querySelector(".texte8");
 const texte9 = document.querySelector(".texte9");
 
 
-function film (film, texte){
-    film.addEventListener("click", () =>{
-        texte.style.visibility = "visible";
-    })
-}
 
-film(film1,texte1)
-film(film2,texte2)
-film(film3, texte3)
-film(film6, texte4)
-film(film7, texte5)
-film(film8, texte6)
-film(film11, texte7)
-film(film12, texte8)
-film(film13, texte9)
 
 // Constante bouton savoir plus
 

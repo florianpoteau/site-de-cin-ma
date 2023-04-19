@@ -30,11 +30,19 @@ body {
   .nav-list li a {
       text-decoration: none;
       color: white;
+      font-size: 20px;
   }
     
   .nav-list li:hover {
       background-color: grey;
   }
+
+  
+  .titr{
+    color: #bc1515b0;
+    position: absolute;
+    left: 2em;
+}
 
   /* Body */
 
@@ -48,6 +56,8 @@ body {
     box-shadow: 6px 5px 15px;
     margin-left: 8%;
     margin-right: 8%;
+    font-size: 25px;
+    text-transform: uppercase;
 }
 
 main{
@@ -284,6 +294,12 @@ width: 60%;
        h2{
         margin-bottom: 7%;
        }
+
+       .titr{
+        top: 10px;
+        left: 0;
+        font-size: 15px;
+    }
 
 }
 
