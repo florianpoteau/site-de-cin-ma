@@ -34,7 +34,6 @@ body {
       
     .nav-list li:hover {
         background-color: grey;
-        transform: scaleY(1.5);
     }
 
     /* Body */
@@ -64,7 +63,9 @@ body {
         transform: scale(115%);
     }
 
-    
+    .flexTexte{
+        margin-bottom: 0;
+    }
 
     .flexTexte1{
         display: flex;
@@ -92,6 +93,7 @@ body {
         background-color: #02110f38;
         border-radius: 5%;
         box-shadow: 3px 4px 12px;
+        background-color: #006aff47;
     }
 
     button{
@@ -101,6 +103,15 @@ body {
 
     button:hover{
         background-color: #d1ccccd4;
+    }
+
+    .btn11, .btn22, .btn33, .btn44, .btn55, .btn66, .btn77, .btn88, .btn99{
+        width: 50%;
+        display: none;
+    }
+
+    .flexTexte a{
+        text-decoration: none;
     }
 
     
@@ -144,4 +155,51 @@ body {
         .flex1{
             flex-direction: column;
         }
+
+        .nav-list li {
+            list-style: none;
+            padding: 2% 10%;
+            
+        }
+    
+        .navbar {
+            padding-right: 45%;
+        }
+
+        h1{
+            margin-top: 10%;
+        }
+    }
+
+    @media screen and (max-width:768px){
+        .nav-list li {
+            list-style: none;
+            padding: 2% 14%;
+        }
+    
+        .navbar {
+            padding-right: 45%;
+        }
+
+        .flex1{
+            flex-direction: column;
+        }
+
+        .film{
+            width: 50%;
+        }
+
+        .titre1, .titre2, .titre3, .titre4, .titre5, .titre6, .titre7, .titre8, .titre9{
+            font-size: 25px;
+        }
+
+        .btn11, .btn22, .btn33, .btn44, .btn55, .btn66, .btn77, .btn88, .btn99{
+            width: 30%;
+            margin-bottom: 25%;
+        }
+
+        .texte1, .texte2, .texte3, .texte4, .texte5, .texte6, .texte7, .texte8, .texte9{
+            padding-left: 10%;
+        }
+        
     }

@@ -87,7 +87,6 @@ body {
 
     .acteur1{
         border-radius: 50%;
-        width: 100%;
     }
 
     .acteur1:hover{
@@ -96,7 +95,6 @@ body {
 
     .acteur2{
         border-radius: 50%;
-        width: 100%;
     }
 
     .acteur2:hover{
@@ -105,7 +103,6 @@ body {
 
     .acteur3{
         border-radius: 50%;
-        width: 100%;
     }
 
     .acteur3:hover{
@@ -114,7 +111,6 @@ body {
 
     .acteur4{
         border-radius: 50%;
-        width: 100%;
     }
 
     .acteur4:hover{
@@ -123,7 +119,6 @@ body {
 
     .acteur5{
         border-radius: 50%;
-        width: 100%;
     }
 
     .acteur5:hover{
@@ -166,7 +161,85 @@ body {
         font-size: 18px;
     }
 
+/* @media screen and (max-width:480px){
 
+    .nav-list li {
+        list-style: none;
+        padding: 2% 10%;
+        
+    }
+
+    .navbar {
+        padding-right: 45%;
+    }
+
+    .flexActeur{
+        flex-direction: column;
+    }
+
+    .flexA{
+        margin-left: 33%;
+        margin-bottom: 5%;
+    }
+
+    .flex1{
+        flex-direction: column;
+        margin-left: 36%;
+    }
+
+    .film{
+        width: 40%;
+        margin-bottom: 10%;
+    }
+
+    h1{
+        margin-top: 10%;
+    }
+
+    
+} */
+@media screen and (max-width: 768px){
+
+    .nav-list li {
+        list-style: none;
+        padding: 2% 7%;
+        
+    }
+
+    .film1, .film2, .film3{
+        width: 20%;
+    }
+
+    .flexActeur{
+        flex-direction: column;
+    }
+
+    .h1{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .acteur1, .acteur2, .acteur3, .acteur4, .acteur5{
+        margin-left: 35%;
+    }
+
+    .flexA p {
+        margin-left: 35%;
+    }
+    .acteur{
+        padding-top: 5%;
+    }
+
+    .flex1{
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    h1{
+        margin-top: 10%;
+    }
+    
+}
     
 
 

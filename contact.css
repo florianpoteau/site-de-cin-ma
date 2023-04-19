@@ -34,7 +34,6 @@ body {
     
   .nav-list li:hover {
       background-color: grey;
-      transform: scaleY(1.5);
   }
 
   /* Body */
@@ -62,30 +61,19 @@ h2{
     margin-bottom: 3%;
 }
 
-label{
-    margin-left: 10%;
+.flex02, .email, .subject{
+    margin-left: 13%;
 }
 
-.prenom, .tel{
-    margin-left: 14%;
-}
-
-input{
-    margin-left: 10%;
-}
-
-legend{
-    margin-left: 10%;
-}
-
-.labelSujet{
-    margin-left: 0;
+.flex03,.telephone{
+    margin-left: 21%;
 }
 
 textarea{
    margin-left: 19%;
    resize: none;
    margin-bottom: 3%;
+   width: 55%;
 }
 
 .submit{
@@ -95,14 +83,20 @@ textarea{
     height: 3em;
 }
 
-#sujet2{
+#sujet2, #sujet4{
     margin-left: 12%;
 }
 
-#nom:valid{
+#nom:valid, #prenom:valid, #mail:valid, #textarea:valid{
     box-shadow: 0 0 2px 1px 
 green;
 }
+
+.flex01, .flex001{
+    display: flex;
+}
+
+
 
 /* Footer */
 
@@ -110,6 +104,8 @@ green;
     margin-top: 5%;
     display: flex;
 }
+
+.br{display: none;}
 
 .horaire{
     flex: 1;
@@ -138,5 +134,153 @@ h3{
     text-decoration: none;
     color: white;
     font-size: 18px;
+}
+
+@media screen and (max-width: 480px){
+
+    .nav-list li {
+        list-style: none;
+        padding: 2% 10%;
+        
+    }
+
+    .navbar {
+        padding-right: 45%;
+    }
+
+    .flex01, .flex001{
+        display: flex;
+        flex-direction: column;
+    }
+
+        .flex02, .email{
+            margin-left: 10%;
+        }
+
+        
+    #mail, #nom{
+margin-bottom: 8%;
+    }
+        
+        .flex03,.telephone{
+            margin-left: 10%;
+        }
+
+        #sujet2, #sujet4{
+            margin-left: 8%;
+        }
+
+        .subject{
+            margin-left: 0;
+        }
+
+        .br{
+            display: block;
+        }
+
+        #sujet, #sujet3{
+            margin-left: 8%;
+        }
+
+        #sujet2, #sujet4{
+            margin-top: 10%;
+        }
+
+        main{
+            width: 80%;
+            margin-right: 90%;
+            margin-left: 10%;
+        }
+
+        legend{
+            margin-left: 8%;
+            margin-bottom: 5%;
+        }
+
+        h1{
+            margin-top: 10%;
+        }
+
+       h2{
+        margin-bottom: 7%;
+       }
+        
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    .nav-list li {
+        list-style: none;
+        padding: 2% 14%;
+        
+    }
+
+    .navbar {
+        padding-right: 45%;
+    }
+
+    .flex01, .flex001{
+        display: flex;
+        flex-direction: column;
+    }
+
+        .flex02, .email{
+            margin-left: 15%;
+        }
+
+        
+    #mail, #nom{
+margin-bottom: 8%;
+width: 60%;
+    }
+
+    #prenom, #tel{
+        width: 60%;
+    }
+        
+        .flex03,.telephone{
+            margin-left: 15%;
+        }
+
+        #sujet2, #sujet4{
+            margin-left: 8%;
+        }
+
+        .subject{
+            margin-left: 0;
+        }
+
+        .br{
+            display: block;
+        }
+
+        #sujet, #sujet3{
+            margin-left: 8%;
+        }
+
+        #sujet2, #sujet4{
+            margin-top: 10%;
+        }
+
+        main{
+            width: 80%;
+            margin-right: 90%;
+            margin-left: 10%;
+        }
+
+        legend{
+            margin-left: 8%;
+            margin-bottom: 5%;
+        }
+
+        h1{
+            margin-top: 10%;
+        }
+
+       h2{
+        margin-bottom: 7%;
+       }
+
 }
 

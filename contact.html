@@ -41,47 +41,75 @@
 
         <form action="">
 
-            <div>
-                <label for="nom">Renseignez votre nom</label>
-                <label class="prenom" for="prenom">Renseignez votre prénom</label>
+            <div class="flex01">
+
+                <div class="flex02">
+                    <label for="nom">Renseignez votre nom</label>
+                    <br>
+                    <input type="text" id="nom" pattern="[a-zA-Z]{1,15}" name="nom" required>
+                </div>
+
+
                 <br>
-                <input type="text" id="nom" pattern="[a-zA-Z]{1,15}" name="nom" required>
-                <input type=" text" id="prenom" nom="prenom" pattern="[a-zA-Z]{1,15}">
+
+                <div class="flex03">
+                    <label class="prenom" for="prenom">Renseignez votre prénom</label>
+                    <br>
+                    <input type=" text" id="prenom" nom="prenom" pattern="[a-zA-Z]{1,15}" required>
+                </div>
             </div>
             <br>
             <br>
 
             <!-- email -->
 
-            <label for="mail">Renseignez votre mail</label>
-            <label class="tel" for="tel">Renseignez votre numéro de tel</label>
-            <br>
-            <input type="email" name="mail" id="mail">
-            <input type="tel" name="tel" id="tel">
+            <div class="flex001">
+
+                <div class="email">
+
+                    <label for="mail">Renseignez votre mail</label>
+                    <br>
+                    <input type="email" name="mail" id="mail" required>
+
+                </div>
+
+                <div class="telephone">
+
+                    <label class="tel" for="tel">Renseignez votre numéro de tel</label>
+                    <br>
+                    <input type="tel" name="tel" id="tel" pattern="[0-9]{10}">
+                </div>
+            </div>
             <br>
             <br>
 
             <!-- sujet -->
 
-            <legend>Quel est le sujet ?</legend>
-            <br>
-            <input type="radio" id="sujet" name="sujet">
-            <label class="labelSujet" for="sujet">Prendre rendez-vous</label>
-            <input type="radio" id="sujet2" name="sujet">
-            <label class="labelSujet" for="sujet2">A propos d'un film</label>
-            <br>
-            <br>
-            <input type="radio" id="sujet3" name="sujet">
-            <label class="labelSujet" for="sujet3">Candidature spontanée</label>
-            <input type="radio" id="sujet4" name="sujet">
-            <label class="labelSujet" for="sujet4">Demander des renseignements</label>
+            <div class="subject">
+
+                <legend>Quel est le sujet ?</legend>
+                <br>
+                <input type="radio" id="sujet" name="sujet" checked>
+                <label class="labelSujet" for="sujet">Prendre rendez-vous</label>
+                <br class="br">
+                <input type="radio" id="sujet2" name="sujet">
+                <label class="labelSujet" for="sujet2">A propos d'un film</label>
+                <br>
+                <br>
+                <input type="radio" id="sujet3" name="sujet">
+                <label class="labelSujet" for="sujet3">Candidature spontanée</label>
+                <br class="br">
+                <input type="radio" id="sujet4" name="sujet">
+                <label class="labelSujet" for="sujet4">Demander des renseignements</label>
+            </div>
             <br>
             <br>
             <br>
 
             <!-- Textarea -->
 
-            <textarea name="textarea" id="textarea" cols="40" rows="15" placeholder="Ecrivez ici"></textarea>
+            <textarea name="textarea" id="textarea" cols="40" rows="15" placeholder="Ecrivez ici" minlength="15"
+                required></textarea>
             <br>
             <input class="submit" type="submit">
 
