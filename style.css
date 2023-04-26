@@ -1,4 +1,5 @@
 
+
 /* Body */
 
 body {
@@ -62,7 +63,7 @@ body {
         left: 2em;
     }
 
-    .h2{
+    .act1{
         margin-top: 7%;
     }
 
@@ -75,7 +76,7 @@ body {
     
     }
 
-    .h1{
+    .act{
         background-color: #815419a3;
         margin-left: 8%;
         margin-right: 8%;
@@ -95,12 +96,6 @@ body {
 
     .film:hover{
         transform: scale(115%);
-    }
-
-    .flexActeur{
-        display: flex;
-        margin-top: 5%;
-        justify-content: space-around;
     }
 
     .acteur{

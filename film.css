@@ -58,14 +58,6 @@ body {
         box-shadow: 6px 5px 15px;
     }
 
-    .flex1{
-        display: flex;
-        margin-top: 10%;
-        margin-right: 5%;
-        gap: 5%;
-        justify-content: space-around;
-    }
-
     .titr{
         color: #bc1515b0;
         position: absolute;
@@ -78,10 +70,6 @@ body {
 
     .film:hover{
         transform: scale(115%);
-    }
-
-    .flexTexte{
-        margin-bottom: 0;
     }
 
     .flexTexte1{
@@ -126,10 +114,6 @@ body {
     .btn11, .btn22, .btn33, .btn44, .btn55, .btn66, .btn77, .btn88, .btn99{
         width: 50%;
         display: none;
-    }
-
-    .flexTexte a{
-        text-decoration: none;
     }
 
     
